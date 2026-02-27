@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recordex — Learn to Delete</title>
+    <meta name="description" content="How to delete your Recordex account and data." />
+    <meta name="theme-color" content="#1A1A1A" />
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <section class="card">
+        <div class="brand">
+          <img class="logo" src="logo.png" alt="Recordex logo" />
+          <div class="brandText">
+            <h1>Learn to delete</h1>
+            <p class="tagline">Account & data deletion</p>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>Delete your Recordex account</h2>
+        <p class="sub">
+          If you want to delete your account and associated data, follow the steps below.
+        </p>
+
+        <ol class="steps">
+          <li>Open the Recordex app.</li>
+          <li>Go to <strong>Settings</strong> → <strong>Account</strong>.</li>
+          <li>Select <strong>Delete account</strong> and confirm.</li>
+        </ol>
+
+        <h2>What gets deleted</h2>
+        <ul class="bullets">
+          <li>Your account profile and authentication identifiers.</li>
+          <li>App data associated with your account.</li>
+        </ul>
+
+        <h2>Retention</h2>
+        <p class="sub">
+          If you have legal/anti-fraud requirements or backups, some data may be retained for a limited period.
+          If you want a specific retention window listed here, tell me what you want it to be.
+        </p>
+
+        <div class="actions">
+          <a class="btn secondary" href="index.html">Back</a>
+          <a class="btn primary" href="mailto:support@recordex.app?subject=Recordex%20Deletion%20Request">
+            Contact support
+          </a>
+        </div>
+
+        <p class="footer">© <span id="year"></span> Recordex</p>
+      </section>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
