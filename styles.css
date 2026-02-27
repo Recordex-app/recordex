@@ -81,3 +81,40 @@ h1 {
 .bullets li {
   margin: 8px 0;
 }
+
+/* ---- Deletion page cleanup ---- */
+
+.deletionCard {
+  max-width: 680px;
+}
+
+.contentSection {
+  margin-top: 28px;
+}
+
+.contentSection h2 {
+  margin-bottom: 12px;
+}
+
+.cleanText {
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Clean list styling */
+.styledList {
+  margin-left: 22px;
+  padding-left: 8px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.styledList li {
+  margin-bottom: 8px;
+}
+
+/* Improve visual hierarchy */
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
