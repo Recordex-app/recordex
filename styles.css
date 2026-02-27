@@ -69,3 +69,15 @@ h1 {
 .actionsCentered {
   justify-content: center;
 }
+
+.steps,
+.bullets {
+  margin: 12px 0 0 18px;
+  color: rgba(255, 255, 255, 0.86);
+  line-height: 1.6;
+}
+
+.steps li,
+.bullets li {
+  margin: 8px 0;
+}
