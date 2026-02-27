@@ -4,63 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Recordex</title>
-    <meta name="description" content="Recordex — Website coming soon. Learn how to delete." />
+    <meta name="description" content="Recordex — Website coming soon." />
     <meta name="theme-color" content="#1A1A1A" />
-
-    <!-- Optional: social previews -->
-    <meta property="og:title" content="Recordex" />
-    <meta property="og:description" content="Website coming soon — Learn how to delete." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="logo.png" />
 
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <main class="page">
-      <section class="card">
-        <div class="brand">
-          <img class="logo" src="logo.png" alt="Recordex logo" />
-          <div class="brandText">
-            <h1>Recordex</h1>
-            <p class="tagline">Learn how to delete</p>
-          </div>
-        </div>
+    <main class="container">
+      <img class="logo" src="logo.png" alt="Recordex logo" />
 
-        <div class="divider"></div>
+      <h1>Recordex</h1>
 
-        <h2>Website coming soon</h2>
-        <p class="sub">
-          We’re building something clean, fast, and simple.  
-          Check back soon — or drop your email to get notified.
-        </p>
+      <p class="coming">Website coming soon</p>
 
-        <!-- Option A: email capture without backend (Formspree / Netlify Forms later)
-             For now it just opens the user's email client -->
-        <div class="actions">
-          <a class="btn primary" href="mailto:hello@yourdomain.com?subject=Recordex%20Waitlist&body=Please%20add%20me%20to%20the%20waitlist.">
-            Join the waitlist
-          </a>
-
-          <a class="btn secondary" href="#" onclick="alert('Coming soon 👀'); return false;">
-            Learn more
-          </a>
-        </div>
-
-        <p class="footer">
-          © <span id="year"></span> Recordex
-        </p>
-      </section>
+      <a class="btn" href="/learn-to-delete">
+        Learn to delete
+      </a>
     </main>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
   </body>
-
 </html>
-
-
-
-
